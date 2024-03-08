@@ -1,0 +1,19 @@
+vgg_unet:
+  batch_size: 32
+  epochs: 100
+  input_height: 480
+  input_width: 640
+  learning_rate: 0.0001
+  n_classes: 3
+  optimizer: "adam"
+mobilenet_segnet:
+  batch_size: 32
+  epochs: 100
+  input_height: 480
+  input_width: 640
+  learning_rate: 0.0001
+  n_classes: 3
+  optimizer: "adam"
+
+
+
